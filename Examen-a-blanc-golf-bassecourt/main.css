@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    color: black;
+    background-color: white;
+    line-height: 1.4;
+    margin-left: 10px;
+}
+
+/***********************************
+            entête
+***********************************/
+header {
+    background-color: #4CAF50;
+    border: 20px solid #388E3C;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+header h1 {
+    display: none;
+}
+.practicegolf {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+header nav ul {
+    text-align: center;
+    margin-outside: 10px;
+    font-weight: 800;
+    color: white;
+    list-style: none;
+}
+header nav a:hover {
+    color: #CDDC39;
+}
+
+/***********************************
+            page principale
+***********************************/
+
+main {
+    margin-inside: 20px;
+}
+h1 {
+    color: #388E3C;
+}
+h2 {
+    color: #4CAF50;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+figure {
+    background-color: #C8E6C9;
+    margin-inside: 10px;
+}
+.cabane {
+    max-width: available;
+}
+figure figcaption {
+    margin-inside: 10px 0px 5px 0px;
+    font-size: 90%;
+    text-align: center;
+}
+main ul {
+    list-style-image: url("balle-golf.png");
+}
+main table thead, main table tfoot {
+    background-color: #C8E6C9;
+}
+main table thead {
+    font-weight: bold;
+}
+main table tbody {
+    border: #C8E6C9;
+    border: 1px;
+    margin-inside: 4px 6px 4px 6px;
+    text-align: right;
+}
+main p {
+    font-size: 80%;
+    margin-inside: 0px 0px 5px 0px;
+}
+main table tfoot {
+    font-size: 80%;
+    text-align: right;
+}
+
+/***********************************
+            pied de page
+***********************************/
+
+footer {
+    height: 120px;
+    color: #B6B6B6;
+    background-image: url("paysage-practice-golf-club-bassecourt.jpg");
+    width: 100%;
+    vertical-align: center;
+    horiz-align: center;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <!-- Titre de la page. Visible dans l'onglet du navigateur -->
@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<!-- entête -->
 <header>
-    <img src="practice-golf-club-bassecourt-logo.png" alt="logo" height="86" width="254"/>
+   <a href="golf.html"> <img class="practicegolf" src="practice-golf-club-bassecourt-logo.png" alt="logo" height="86" width="254"/> </a>
+    <h1>
+        Practice Golf Club Bassecourt
+    </h1>
     <nav>
         <ul>
             <li>
@@ -29,6 +33,7 @@
         </ul>
     </nav>
 </header>
+<!-- page principal -->
 <main>
     <h1>
         Practice Golf Club Bassecourt
@@ -38,17 +43,17 @@
     </h2>
     <p>
         Situé au beau milieu des pâturages Essert Jacques surplombant le village de Bassecourt,
-        le Practice Golf Club de <a href="http://bassecourt.ch/"> Bassecourt </a> offre la possibilité depuis 20 ans à
+        le Practice Golf Club de <a href="http://bassecourt.ch/"> Bassecourt</a> offre la possibilité depuis 20 ans à
         tout golfeur,
         débutant ou chevronné,
         d’entraîner son swing dans le but de jouer sur les fairways et greens de ses parcours favoris.
     </p>
     <p>
         <a href="C:\Users\fanlou\WebstormProjects\101-EXE-05-Examen-a-blanc\Examen-a-blanc-golf-bassecourt\open-golf-printemps-2008.pdf ">
-            Lire l'article « PGCB déjà 20 ans de plaisir » </a>, paru dans le magazine Open Golf au printemps 2008.
+            Lire l'article « PGCB déjà 20 ans de plaisir »</a>, paru dans le magazine Open Golf au printemps 2008.
     </p>
     <figure>
-        <img src="cabane-practice-golf-club-bassecourt.jpg" alt="golf_bassecourt" height="341" width="600"/>
+        <img class="cabane" src="cabane-practice-golf-club-bassecourt.jpg" alt="golf_bassecourt" />
         <figcaption>
             Club House du Practice Golf Club Bassecourt
         </figcaption>
@@ -89,19 +94,24 @@
     <h2>
         Tarifs
     </h2>
+    <p>
+        Prix des droits d'entrées et cotistions par catégorie
+    </p>
     <table>
+        <thead>
+            <tr>
+                <td>
+                    Catégorie
+                </td>
+                <td>
+                    Entrée
+                </td>
+                <td>
+                    Cotisation
+                </td>
+            </tr>
+        </thead>
         <tbody>
-        <tr>
-            <td>
-                Catégorie
-            </td>
-            <td>
-                Entrée
-            </td>
-            <td>
-                Cotisation
-            </td>
-        </tr>
         <tr>
             <td>
                 Adulte
@@ -157,13 +167,15 @@
                 25.-
             </td>
         </tr>
-        <tr>
-
-            <td>
-                Prix en francs suisses pour la saison 2015
-            </td>
-        </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    Prix en francs suisses pour la saison 2015
+                </td>
+            </tr>
+
+        </tfoot>
     </table>
     <h2>
         Meilleurs membres
@@ -187,6 +199,7 @@
     </ol>
 
 </main>
+<!-- pied de page -->
 <footer>
 <div> &copy; Practice Golf Club Bassecourt - <a href ="Info@pgch.ch"> Info@pgch.ch </a></div>
 </footer>
